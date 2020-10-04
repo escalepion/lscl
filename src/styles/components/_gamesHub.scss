@@ -1,0 +1,39 @@
+.gameshub-list-container {
+  padding-left: 3.6rem;
+  &__findButton {
+    margin-top: 2.6rem;
+  }
+}
+
+.gameshub-list-seperator {
+  height: 1px;
+  background-image: linear-gradient(to bottom, #0d0d0e 0%, #121214 100%);
+}
+
+.upcoming-main {
+  background-color: #17171a;
+  margin-top: 2rem;
+}
+
+.upcoming-wrapper {
+  background-color: #17171a;
+  padding-bottom: 6rem;
+}
+
+.gameCard__container {
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.gameCards__button {
+  margin: 3rem 0 0;
+  display: flex;
+  justify-content: center;
+  button {
+    padding: 1rem 7rem !important;
+    font-size: 1.4rem !important;
+  }
+}

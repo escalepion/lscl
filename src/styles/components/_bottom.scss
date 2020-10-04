@@ -1,0 +1,36 @@
+.bottom {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2.6rem 0 3.8rem;
+  &_text {
+    opacity: 0.5;
+    font-size: 1.1rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: -0.18px;
+    color: #a6a6a6;
+    display: block;
+    @media (max-width: 768px) {
+      display: block;
+      padding: 0 4rem;
+    }
+  }
+  &__pay {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    img {
+      height: 2rem;
+      margin-left: 2rem;
+    }
+    @media (max-width: 768px) {
+      display: block;
+      padding: 0 1rem;
+      margin-top: 2rem;
+    }
+  }
+}

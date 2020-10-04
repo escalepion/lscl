@@ -1,0 +1,26 @@
+.line-button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid 1px #0a84ff;
+  color: #0a84ff;
+  cursor: pointer;
+  padding: .7rem 1.5rem;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+
+  &.wider {
+    padding-right: 3.3rem;
+    padding-left: 3.3rem;
+  }
+
+  &:hover {
+    background-color: #0a84ff;
+    color: white;
+    transition: .2s;
+  }
+}

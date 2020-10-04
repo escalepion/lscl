@@ -1,0 +1,13 @@
+.content-list-header {
+  font-size: 2rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.28px;
+  color: #f2f2f2;
+  @media (max-width: 768px) {
+    display: block;
+    padding: 0 1rem;
+  }
+}

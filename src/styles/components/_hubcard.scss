@@ -1,0 +1,136 @@
+.hubcard {
+  border-radius: 10px;
+  background-color: #27272c;
+  padding: 1.5rem;
+  min-height: 17rem;
+  margin-bottom: 1.5rem;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    &__img-wrapper {
+      width: 4.8rem;
+      height: 4.8rem;
+      img {
+        width: 4.8rem;
+        height: 4.8rem;
+      }
+    }
+    &__content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      &__wrapper {
+        margin-left: 1.6rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      &__line {
+        display: flex;
+        justify-content: space-between;
+      }
+      &__user {
+        display: flex;
+        align-items: center;
+        img {
+          width: 3rem;
+          height: 1.3rem;
+          margin-left: 1rem;
+        }
+      }
+      &__time {
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: right;
+        color: rgba(235, 235, 245, 0.3);
+      }
+      &__title {
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: -0.24px;
+        color: #ffffff;
+        margin: 0;
+      }
+      &__info {
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: #0091ff;
+      }
+      &__follower {
+        font-size: 1.2rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        color: rgba(235, 235, 245, 0.6);
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  &__content {
+    p {
+      font-size: 1.3rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.38;
+      letter-spacing: normal;
+      color: #f2f2f2;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    &__icons-wrapper {
+      display: flex;
+      align-items: center;
+      img {
+        height: 3rem;
+        width: 3rem;
+        margin-right: 1rem;
+      }
+    }
+    &__comments-wrapper {
+      display: flex;
+      align-items: center;
+      img {
+        height: 1.5rem;
+        width: 1.5rem;
+      }
+    }
+    &__text {
+      font-size: 1.2rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: normal;
+      color: rgba(235, 235, 245, 0.6);
+      &-comments {
+        margin-right: 1rem;
+        &.no-comment {
+          color: #0091ff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    padding: 4rem;
+  }
+}

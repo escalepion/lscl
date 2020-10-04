@@ -1,0 +1,95 @@
+.footer {
+  padding: 3.3rem 0;
+  &__container {
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    @media (max-width: 768px) {
+      padding: 0 3rem;
+    }
+  }
+  &__help {
+    margin-left: -5rem;
+    margin-right: 5rem;
+  }
+  &__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: -0.24px;
+    color: #a6a6a6;
+    display: block;
+    margin-bottom: .8rem;
+    @media (max-width: 768px) {
+      margin-top: 1rem;
+    }
+  }
+  &_list-item {
+    display: block;
+    line-height: 1.8;
+    color: #a6a6a6;
+    opacity: .5;
+    cursor: pointer;
+  }
+  .getapp {
+    display: flex;
+    align-items: center;
+    &__content {
+      margin-left: 1.5rem;
+    }
+    &__avatar {
+      height: 7rem;
+      width: 7rem;
+      border-radius: 10px;
+    }
+    &__title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.33;
+      letter-spacing: -0.24px;
+      color: #a6a6a6;
+      display: block;
+      margin-bottom: 1.2rem;
+    }
+    &__desc {
+      font-size: 1.3rem;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.23;
+      letter-spacing: -0.21px;
+      color: #a6a6a6;
+    }
+    &__playstore-wrapper {
+      display: flex;
+      justify-content: flex-end;
+      @media (max-width: 768px) {
+        display: block;
+        padding: 0 1rem;
+        margin-top: 2rem;
+      }
+    }
+    &__playstore {
+      &__img {
+        margin-bottom: 1rem;
+        img {
+          width: 2rem;
+          height: 2.4rem;
+        }
+      }
+      &__text {
+        font-size: 1.3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.23;
+        letter-spacing: -0.21px;
+        color: #a6a6a6;
+        display: block;
+      }
+    }
+  }
+}
