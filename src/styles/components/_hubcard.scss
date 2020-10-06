@@ -1,9 +1,22 @@
+.hubcard-main-container {
+  width: 100%;
+  max-width: 48.2rem;
+}
+.hubcard-channels-container {
+  max-width: 26rem;
+}
+.hubcard-follow-container {
+  margin-left: 2.9rem;
+  .gamehub-list-item__content__title {
+    margin-top: 7px;
+  }
+}
 .hubcard {
   border-radius: 10px;
   background-color: #27272c;
   padding: 1.5rem;
-  min-height: 17rem;
   margin-bottom: 1.5rem;
+  margin-top: 1.8rem;
 
   &__top {
     display: flex;
@@ -48,6 +61,7 @@
         letter-spacing: normal;
         text-align: right;
         color: rgba(235, 235, 245, 0.3);
+        margin-top: 3px;
       }
       &__title {
         font-size: 1.5rem;
@@ -58,6 +72,8 @@
         letter-spacing: -0.24px;
         color: #ffffff;
         margin: 0;
+        margin-left: 2px;
+        margin-top: 3px;
       }
       &__info {
         font-size: 1.2rem;
@@ -67,6 +83,7 @@
         line-height: 1.33;
         letter-spacing: normal;
         color: #0091ff;
+        margin-left: 2px;
       }
       &__follower {
         font-size: 1.2rem;

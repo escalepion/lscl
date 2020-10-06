@@ -12,8 +12,8 @@ const Bottom = () => {
           </div>
           <div className="col-6">
             <div className="bottom__pay">
-              <img src={require('../assets/visa.png')} alt="playstore" />
-              <img src={require('../assets/mastercard.png')} alt="playstore" />
+              <img className="bottom__pay__visa" src={require('../assets/visa.png')} alt="playstore" />
+              <img className="bottom__pay__mastercard" src={require('../assets/mastercard.png')} alt="playstore" />
               <img src={require('../assets/paypal.png')} alt="playstore" />
             </div>
           </div>

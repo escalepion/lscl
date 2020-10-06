@@ -10,10 +10,8 @@ body {
 }
 
 .container {
-  max-width: 1140px;
+  max-width: 1043px;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
   @media (max-width: 768px) {
@@ -24,7 +22,7 @@ body {
 
 .header-container {
   width: 100%;
-  max-width: 94rem;
+  max-width: 1043px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -35,8 +33,6 @@ body {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
   @media (max-width: 768px) {
     margin-right: 0;
     margin-left: 0;

@@ -2,25 +2,37 @@
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   background-color: #151517;
-  padding: 2rem 0;
+  padding: 2rem 0 1.5rem;
 
   &__wrapper {
     display: flex;
     align-items: center;
+    margin-left: 12rem;
+    margin-top: .5rem;
   }
   &__icons {
     display: flex;
     align-items: center;
     position: relative;
     img {
-      margin-left: 3.8rem;
+      margin-left: 1.5rem;
       position: relative;
+    }
+    &__wallet {
+      margin-left: 3.9rem !important;
+    }
+    &__wallet-2 {
+      margin-left: 3.5rem !important;
+    }
+    &__bag {
+      margin-left: 3.4rem !important;
     }
     &__bell {
       position: relative;
       padding-top: .4rem;
       img {
         height: 2.1rem;
+        margin-left: 2rem !important;
       }
       &:after {
         content:url('../../assets/dot.png');
@@ -51,8 +63,8 @@
       position: absolute;
       height: 2.2rem;
       width: 2.2rem;
-      right: 1.6rem;
-      top: 1.1rem;
+      right: 3.6rem;
+      top: 1.2rem;
     }
     input {
       border: none;

@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
           <div className="col-6">
             <div className="row">
-              <div className="col-5">
+              <div className="footer-getapp-container">
                 <div className="getapp">
                   <div className="getapp__avatar">
                     <img src={require('../assets/avatars/black-pp.png')} alt="avatar" />
@@ -44,7 +44,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-4 getapp__playstore-wrapper">
+              <div className="getapp__playstore-wrapper">
                 <div className="getapp__playstore">
                   <div className="getapp__playstore__img">
                     <img src={require('../assets/playstore.png')} alt="playstore" />
@@ -55,9 +55,9 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-3 getapp__playstore-wrapper">
+              <div className="getapp__playstore-wrapper">
                 <div className="getapp__playstore">
-                  <div className="getapp__playstore__img">
+                  <div className="getapp__playstore__img apple">
                     <img src={require('../assets/apple.png')} alt="playstore" />
                   </div>
                   <div className="getapp__playstore__content">

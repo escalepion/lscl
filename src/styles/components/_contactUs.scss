@@ -6,7 +6,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4.5rem 0;
+    padding: 4.5rem 0 3.6rem;
     @media (max-width: 768px) {
       display: block;
       padding: 1rem;
@@ -23,10 +23,11 @@
   }
   &__input {
     position: relative;
+    max-width: 42rem;
     input {
       border: none;
       color: #f2f2f2;
-      width: 44rem;
+      width: 38rem;
       height: 4.4rem;
       border-radius: 6px;
       background-color: #111113;
@@ -63,7 +64,7 @@
     letter-spacing: -0.4px;
     text-align: center;
     color: #ffffff;
-    padding: 1rem 5rem;
+    padding: 1.5rem 5rem;
     border: none;
     display: block;
     cursor: pointer;

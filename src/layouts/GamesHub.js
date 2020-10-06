@@ -22,11 +22,11 @@ const GamesHub = (props) => {
               buttonText="Discover All"
             />
           </div>
-          <div className="col-6">
+          <div className="hubcard-main-container">
             <ContentListHeader title="Latest posts" />
             <HubCard latestPosts={latestPosts} />
           </div>
-          <div className="col-3">
+          <div className="col-3 hubcard-channels-container">
             <div className="gameshub-list-container">
               <ContentListHeader title="Channels" />
               <div className="gameshub-list-seperator" />
@@ -36,13 +36,13 @@ const GamesHub = (props) => {
               </div>
             </div>
           </div>
-          <div className="col-3">
+          <div className="col-3 hubcard-follow-container">
             <div className="gameshub-list-container">
               <ContentListHeader title="Who to follow?" />
               <div className="gameshub-list-seperator" />
               {whoToFollowData.map((info, index) => (<GameHubListItem key={index} info={info} />))}
               <div className="gameshub-list-container__findButton">
-                <button className="line-button wider">Find More</button>
+                <button className="line-button wider">Discover All</button>
               </div>
             </div>
           </div>

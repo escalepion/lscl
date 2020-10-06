@@ -14,8 +14,8 @@ const Navbar = () => {
               <a href="/">Home</a>
             </li>
             <li><img src={require('../assets/inc-games.png')} alt="playstore" /><a href="/">Social</a></li>
-            <li><img src={require('../assets/inc-market.png')} alt="playstore" /><a href="/">Market</a></li>
-            <li><img src={require('../assets/inc-tournements.png')} alt="playstore" /><a href="/">Toutnements</a></li>
+            <li className="market"><img src={require('../assets/inc-market.png')} alt="playstore" /><a href="/">Market</a></li>
+            <li className="tournements"><img src={require('../assets/inc-tournements.png')} alt="playstore" /><a href="/">Tournements</a></li>
           </ul>
         </nav>
       </div>

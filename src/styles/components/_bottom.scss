@@ -23,6 +23,13 @@
     justify-content: flex-end;
     align-items: center;
     height: 100%;
+    &__visa{
+      margin-right: .5rem;
+      height: 1.8rem;
+    }
+    &__mastercard{
+      height: 3rem !important;
+    }
     img {
       height: 2rem;
       margin-left: 2rem;

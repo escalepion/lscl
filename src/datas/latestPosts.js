@@ -5,7 +5,7 @@ export default [
     avatar: require("../assets/mrpaladin_pp.png"),
     followerCount: 15,
     lastSeen: '3hrs ago',
-    content: 'Sniper isnt overpowered. Sniper has some of the lowest damage outputs in the game. 50 damage per shot is terrible, especially with the fire rate. Compared to heavy, who has 400+ DPS!...',
+    content: 'Sniper isnt overpowered. Sniper has some of the lowest damage outputs in the game. 50 damage per shot is terrible, especially with the fire rate. Compared to heavy, who has 400+ DPS!...lorem ipsum lorem ipsum lorem ipsum lorem ipsum ',
     isProUser: false,
     isApplaused : true,
     emotionCount: 296,
